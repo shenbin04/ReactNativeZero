@@ -14,14 +14,21 @@
     "react-native": "0.57.8"
   },
   "devDependencies": {
+    "@babel/core": "7.2.2",
+    "babel-core": "7.0.0-bridge.0",
     "babel-jest": "23.6.0",
+    "enzyme": "3.8.0",
+    "enzyme-adapter-react-16": "1.7.1",
+    "enzyme-to-json": "3.3.5",
     "flow-bin": "0.78.0",
     "glow": "1.2.2",
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.51.1",
+    "react-dom": "16.6.3",
     "react-test-renderer": "16.6.3"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "setupTestFrameworkScriptFile": "<rootDir>/js/test/setupAfterEnv.js"
   }
 }
