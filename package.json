@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "flow": "flow",
+    "glow": "glow",
+    "glow:watch": "glow --watch",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
@@ -12,6 +15,8 @@
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
+    "flow-bin": "0.78.0",
+    "glow": "1.2.2",
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.51.1",
     "react-test-renderer": "16.6.3"
