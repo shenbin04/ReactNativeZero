@@ -3,8 +3,18 @@
 Starter for a react native app
 
 ## Features
-- React Native 0.57.8
+- react native 0.57.8
+- jest
+  - enzyme
+  - snapshot
+- misc
+  - relative path without `.`
 
 ## TODO
+- redux
+- eslint
 - prettier
+- flow
+- factory
+- selector
 - upgrade flow
