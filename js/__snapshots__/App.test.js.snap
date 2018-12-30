@@ -45,5 +45,18 @@ exports[`App renders 1`] = `
     Press Cmd+R to reload,
 Cmd+D or shake for dev menu
   </Text>
+  <Image
+    source={
+      Object {
+        "uri": "https://facebook.github.io/react-native/docs/assets/favicon.png",
+      }
+    }
+    style={
+      Object {
+        "height": 100,
+        "width": 100,
+      }
+    }
+  />
 </View>
 `;
