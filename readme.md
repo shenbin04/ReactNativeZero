@@ -11,6 +11,9 @@ Starter for a react native app
   - relative path without `.`
 
 ## TODO
+- es
+  - optional chaining
+  - nullish coalescing
 - redux
 - eslint
 - prettier
